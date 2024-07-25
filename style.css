@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(45deg, beige, coral);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.container {
+    width: 80vmin;
+    background-color: white;
+    padding: 2vmin;
+    border-radius: 1vmin;
+    box-shadow: 0 2vmin 5vmin rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    color: coral;
+    margin-bottom: 2vmin;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input-container input[type="text"] {
+    flex: 1; 
+    padding: 1vmin 4vmin; 
+    box-sizing: border-box;
+    border: 0.3vmin solid coral;
+    border-radius: 2vmin 0 0 2vmin;
+    font-size: 3vmin;
+}
+
+.input-container button {
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 1vmin 3vmin; 
+    cursor: pointer;
+    border-radius: 0 2vmin 2vmin 0;
+    font-size: 3.2vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container button:hover {
+    background-color: beige;
+    color: coral;
+}
+
+#task_list {
+    margin-top: 2vmin;
+}
+
+#task_list div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vmin;
+}
+
+#task_list label {
+    font-size: 3vmin;
+    margin-left: 1vmin;
+    flex: 1;
+}
+
+#task_list button {
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 0.5vmin 1vmin;
+    cursor: pointer;
+    border-radius: 0.5vmin;
+    font-size: 2vmin;
+    margin-left: 1vmin;
+}
+
+#task_list button:hover {
+    background-color: beige;
+    color: coral;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
